@@ -1445,116 +1445,897 @@
 
 
 
-        <section data-test="page-section" data-section-theme="dark-bold" class="page-section 
-    full-bleed-section layout-engine-section background-width--full-bleed section-height--medium
-    content-width--wide horizontal-alignment--center vertical-alignment--middle dark-bold" 
-    data-section-id="67322a6b73bf717297325133" data-controller="SectionWrapperController"
-    data-current-styles="{
-        &quot;imageOverlayOpacity&quot;: 0.15,
-        &quot;backgroundWidth&quot;: &quot;background-width--full-bleed&quot;,
-        &quot;sectionHeight&quot;: &quot;section-height--medium&quot;,
-        &quot;customSectionHeight&quot;: 1,
-        &quot;horizontalAlignment&quot;: &quot;horizontal-alignment--center&quot;,
-        &quot;verticalAlignment&quot;: &quot;vertical-alignment--middle&quot;,
-        &quot;contentWidth&quot;: &quot;content-width--wide&quot;,
-        &quot;customContentWidth&quot;: 50,
-        &quot;sectionTheme&quot;: &quot;dark-bold&quot;,
-        &quot;sectionAnimation&quot;: &quot;none&quot;
-    }" data-current-context="{
-        &quot;video&quot;: {
-            &quot;playbackSpeed&quot;: 0.5,
-            &quot;filter&quot;: 1
-        }
-    }" data-animation="none" data-fluid-engine-section="" data-controllers-bound="SectionWrapperController">
+        <section data-test="page-section" data-section-theme="" class="page-section 
+    
+      full-bleed-section
+      layout-engine-section
+    
+    background-width--full-bleed
+    
+      section-height--medium
+    
+    
+      content-width--wide
+    
+    horizontal-alignment--center
+    vertical-alignment--middle
+    
+      
+    
+    
+    " data-section-id="6732850ef4bf4c5409fede57" data-controller="SectionWrapperController" data-current-styles="{
+&quot;imageOverlayOpacity&quot;: 0.15,
+&quot;backgroundWidth&quot;: &quot;background-width--full-bleed&quot;,
+&quot;sectionHeight&quot;: &quot;section-height--medium&quot;,
+&quot;horizontalAlignment&quot;: &quot;horizontal-alignment--center&quot;,
+&quot;verticalAlignment&quot;: &quot;vertical-alignment--middle&quot;,
+&quot;contentWidth&quot;: &quot;content-width--wide&quot;,
+&quot;customContentWidth&quot;: 50,
+&quot;sectionAnimation&quot;: &quot;none&quot;,
+&quot;backgroundMode&quot;: &quot;image&quot;
+}" data-current-context="{
+&quot;video&quot;: {
+&quot;playbackSpeed&quot;: 0.5,
+&quot;filter&quot;: 1,
+&quot;filterStrength&quot;: 0,
+&quot;zoom&quot;: 0,
+&quot;videoSourceProvider&quot;: &quot;none&quot;
+},
+&quot;backgroundImageId&quot;: null,
+&quot;backgroundMediaEffect&quot;: null,
+&quot;divider&quot;: null,
+&quot;typeName&quot;: &quot;page&quot;
+}" data-animation="none" data-fluid-engine-section="" data-controllers-bound="SectionWrapperController">
+          <div class="section-border">
+            <div class="section-background">
 
-    <div class="section-border">
-        <div class="section-background"></div>
-    </div>
 
-    <div class="content-wrapper">
-        <div class="content">
-            <div data-fluid-engine="true">
+
+            </div>
+          </div>
+          <div class="content-wrapper" style="
+      
+        
+      
+    ">
+            <div class="content">
+
+
+
+
+
+
+
+
+              <div data-fluid-engine="true">
                 <style>
-                    .fe-67322a6b73bf717297325132 {
-                        display: grid;
-                        grid-template-rows: repeat(23, minmax(24px, auto));
-                        grid-template-columns: minmax(var(--grid-gutter), 1fr) repeat(8, minmax(0, var(--cell-max-width))) minmax(var(--grid-gutter), 1fr);
+                  .fe-6732850ef4bf4c5409fede56 {
+                    --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11.0px);
+                    --cell-max-width: calc((var(--sqs-site-max-width, 1500px) - (11.0px * (8 - 1))) / 8);
+
+                    display: grid;
+                    position: relative;
+                    grid-area: 1/1/-1/-1;
+                    grid-template-rows: repeat(12, minmax(24px, auto));
+                    grid-template-columns:
+                      minmax(var(--grid-gutter), 1fr) repeat(8, minmax(0, var(--cell-max-width))) minmax(var(--grid-gutter), 1fr);
+                    row-gap: 11.0px;
+                    column-gap: 11.0px;
+                  }
+
+                  @media (min-width: 768px) {
+                    .background-width--inset .fe-6732850ef4bf4c5409fede56 {
+                      --inset-padding: calc(var(--sqs-site-gutter) * 2);
                     }
+
+                    .fe-6732850ef4bf4c5409fede56 {
+                      --grid-gutter: calc(var(--sqs-site-gutter, 4vw) - 11.0px);
+                      --cell-max-width: calc((var(--sqs-site-max-width, 1500px) - (11.0px * (24 - 1))) / 24);
+                      --inset-padding: 0vw;
+
+                      --row-height-scaling-factor: 0.0215;
+                      --container-width: min(var(--sqs-site-max-width, 1500px), calc(100vw - var(--sqs-site-gutter, 4vw) * 2 - var(--inset-padding)));
+
+                      grid-template-rows: repeat(19, minmax(calc(var(--container-width) * var(--row-height-scaling-factor)), auto));
+                      grid-template-columns:
+                        minmax(var(--grid-gutter), 1fr) repeat(24, minmax(0, var(--cell-max-width))) minmax(var(--grid-gutter), 1fr);
+                    }
+                  }
+
+
+                  .fe-block-23970a458314a9c38d02 {
+                    grid-area: 1/2/13/10;
+                    z-index: 0;
+
+                    @media (max-width: 767px) {}
+                  }
+
+                  .fe-block-23970a458314a9c38d02 .sqs-block {
+                    justify-content: flex-start;
+                  }
+
+                  .fe-block-23970a458314a9c38d02 .sqs-block-alignment-wrapper {
+                    align-items: flex-start;
+                  }
+
+                  @media (min-width: 768px) {
+                    .fe-block-23970a458314a9c38d02 {
+                      grid-area: 1/5/20/23;
+                      z-index: 0;
+
+
+                    }
+
+                    .fe-block-23970a458314a9c38d02 .sqs-block {
+                      justify-content: flex-start;
+                    }
+
+                    .fe-block-23970a458314a9c38d02 .sqs-block-alignment-wrapper {
+                      align-items: flex-start;
+                    }
+                  }
                 </style>
+                <div class="fluid-engine fe-6732850ef4bf4c5409fede56">
+                  <div class="fe-block fe-block-23970a458314a9c38d02" style="mix-blend-mode: normal;">
+                    <div class="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2"
+                      data-border-radii="{&quot;topLeft&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0},&quot;topRight&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0},&quot;bottomLeft&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0},&quot;bottomRight&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0}}"
+                      id="block-23970a458314a9c38d02">
+                      <div class="sqs-block-content">
 
+                        <div class="sqs-html-content">
+                          <h3 style="white-space:pre-wrap;"><strong>{</strong><span
+                              class="sqsrte-text-color--darkAccent"><strong>shortsum</strong></span><strong>} is your
+                              personal assistant for capturing, organizing, and preserving valuable insights.</strong>
+                          </h3>
+                          <h3 style="white-space:pre-wrap;"><span class="sqsrte-text-color--white">In today’s world of
+                              endless content, we often forget what matters. Shortsum helps you save key ideas from
+                              relevant short-form content, turning them into lasting knowledge that’s easy to
+                              revisit.</span></h3>
+                          <h3 style="white-space:pre-wrap;"><span class="sqsrte-text-color--white">Our mission is
+                              simple: </span><span class="sqsrte-text-color--darkAccent"><strong>Empower you to remember
+                                what’s important, without the overwhelm</strong></span><span
+                              class="sqsrte-text-color--white"><strong>.</strong> Using AI, Shortsum creates concise
+                              summaries and organizes your insights by themes, helping you build a personal knowledge
+                              base over time.</span></h3>
+                          <h3 style="white-space:pre-wrap;"><strong>Join us on a journey to make information meaningful
+                              and memorable—capturing moments that inspire, inform, and grow with you.</strong></h3>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <section data-test="page-section" data-section-theme="dark-bold" class="page-section 
+    
+      full-bleed-section
+      layout-engine-section
+    
+    background-width--full-bleed
+    
+      section-height--medium
+    
+    
+      content-width--wide
+    
+    horizontal-alignment--center
+    vertical-alignment--middle
+    
+    
+    dark-bold" data-section-id="67322a6b73bf717297325133" data-controller="SectionWrapperController"
+          data-current-styles="{
+&quot;imageOverlayOpacity&quot;: 0.15,
+&quot;backgroundWidth&quot;: &quot;background-width--full-bleed&quot;,
+&quot;sectionHeight&quot;: &quot;section-height--medium&quot;,
+&quot;customSectionHeight&quot;: 1,
+&quot;horizontalAlignment&quot;: &quot;horizontal-alignment--center&quot;,
+&quot;verticalAlignment&quot;: &quot;vertical-alignment--middle&quot;,
+&quot;contentWidth&quot;: &quot;content-width--wide&quot;,
+&quot;customContentWidth&quot;: 50,
+&quot;sectionTheme&quot;: &quot;dark-bold&quot;,
+&quot;sectionAnimation&quot;: &quot;none&quot;,
+&quot;backgroundMode&quot;: &quot;generative&quot;,
+&quot;generative&quot;: {
+&quot;type&quot;: &quot;none&quot;,
+&quot;seed&quot;: 0,
+&quot;count&quot;: 0,
+&quot;size&quot;: 0,
+&quot;speed&quot;: 0,
+&quot;invertColors&quot;: false,
+&quot;noiseIntensity&quot;: 0,
+&quot;noiseScale&quot;: 0,
+&quot;distortionScaleX&quot;: 0,
+&quot;distortionScaleY&quot;: 0,
+&quot;distortionSpeed&quot;: 0,
+&quot;distortionIntensity&quot;: 0,
+&quot;lightIntensity&quot;: 0,
+&quot;lightX&quot;: 0,
+&quot;bevelRotation&quot;: 0,
+&quot;bevelSize&quot;: 0,
+&quot;bevelStrength&quot;: 0,
+&quot;complexity&quot;: 0,
+&quot;cutoff&quot;: 0,
+&quot;isBevelEnabled&quot;: false,
+&quot;isBlurEnabled&quot;: false,
+&quot;scale&quot;: 0,
+&quot;speedMorph&quot;: 0,
+&quot;speedTravel&quot;: 0,
+&quot;steps&quot;: 0,
+&quot;travelDirection&quot;: 0,
+&quot;noiseBias&quot;: 0,
+&quot;animateNoise&quot;: false,
+&quot;distortionComplexity&quot;: 0,
+&quot;distortionDirection&quot;: 0,
+&quot;distortionMorphSpeed&quot;: 0,
+&quot;distortionSeed&quot;: 0,
+&quot;distortionSmoothness&quot;: 0,
+&quot;linearGradientStartColorDistance&quot;: 0,
+&quot;linearGradientEndColorDistance&quot;: 0,
+&quot;linearGradientAngle&quot;: 0,
+&quot;linearGradientAngleMotion&quot;: 0,
+&quot;linearGradientRepeat&quot;: 0,
+&quot;radialGradientRadius&quot;: 0,
+&quot;radialGradientPositionX&quot;: 0,
+&quot;radialGradientPositionY&quot;: 0,
+&quot;radialGradientFollowCursor&quot;: false,
+&quot;radialGradientFollowSpeed&quot;: 0,
+&quot;imageScale&quot;: 0,
+&quot;imageCount&quot;: 0,
+&quot;patternEnabled&quot;: false,
+&quot;patternSize&quot;: 0,
+&quot;patternOffsetX&quot;: 0,
+&quot;patternOffsetY&quot;: 0,
+&quot;patternSpaceX&quot;: 0,
+&quot;patternSpaceY&quot;: 0,
+&quot;waveEnabled&quot;: false,
+&quot;waveSpeed&quot;: 0,
+&quot;waveComplexity&quot;: 0,
+&quot;waveDepth&quot;: 0,
+&quot;waveShadowDepth&quot;: 0,
+&quot;boxSize&quot;: 0.0,
+&quot;scaleX&quot;: 0,
+&quot;scaleY&quot;: 0,
+&quot;scaleZ&quot;: 0,
+&quot;isMorphEnabled&quot;: false,
+&quot;lightY&quot;: 0,
+&quot;lightZ&quot;: 0,
+&quot;noiseRange&quot;: 0,
+&quot;positionFactor&quot;: 0,
+&quot;scaleFactor&quot;: 0,
+&quot;colorFactor&quot;: 0,
+&quot;sizeVariance&quot;: 0,
+&quot;wobble&quot;: 0,
+&quot;morph&quot;: 0,
+&quot;scrollMovement&quot;: 0,
+&quot;patternScaleX&quot;: 0,
+&quot;patternScaleY&quot;: 0,
+&quot;patternPowerX&quot;: 0,
+&quot;patternPowerY&quot;: 0,
+&quot;patternAmount&quot;: 0,
+&quot;surfaceHeight&quot;: 0,
+&quot;colorStop1&quot;: 0,
+&quot;colorStop2&quot;: 0,
+&quot;colorStop3&quot;: 0,
+&quot;colorStop4&quot;: 0,
+&quot;gradientDistortionX&quot;: 0,
+&quot;gradientDistortionY&quot;: 0,
+&quot;curveX&quot;: 0,
+&quot;curveY&quot;: 0,
+&quot;curveFunnel&quot;: 0,
+&quot;fogIntensity&quot;: 0,
+&quot;repeat&quot;: 0,
+&quot;rotation&quot;: 0,
+&quot;rotationSpeed&quot;: 0,
+&quot;blur&quot;: 0,
+&quot;complexityY&quot;: 0,
+&quot;complexityZ&quot;: 0,
+&quot;amplitudeY&quot;: 0,
+&quot;amplitudeZ&quot;: 0,
+&quot;offset&quot;: 0,
+&quot;lightAngle&quot;: 0,
+&quot;alpha&quot;: 0
+}
+}" data-current-context="{
+&quot;video&quot;: {
+&quot;playbackSpeed&quot;: 0.5,
+&quot;filter&quot;: 1,
+&quot;filterStrength&quot;: 0,
+&quot;zoom&quot;: 0,
+&quot;videoSourceProvider&quot;: &quot;none&quot;
+},
+&quot;backgroundImageId&quot;: null,
+&quot;backgroundMediaEffect&quot;: {
+&quot;type&quot;: &quot;none&quot;
+},
+&quot;divider&quot;: {
+&quot;enabled&quot;: false
+},
+&quot;typeName&quot;: &quot;page&quot;
+}" data-animation="none" data-fluid-engine-section="" data-controllers-bound="SectionWrapperController">
+          <div class="section-border">
+            <div class="section-background">
+
+
+
+            </div>
+          </div>
+          <div class="content-wrapper" style="
+      
+        
+      
+    ">
+            <div class="content">
+
+
+
+
+
+
+
+
+              <div data-fluid-engine="true">
+                <style>
+                  .fe-67322a6b73bf717297325132 {
+                    --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11.0px);
+                    --cell-max-width: calc((var(--sqs-site-max-width, 1500px) - (11.0px * (8 - 1))) / 8);
+
+                    display: grid;
+                    position: relative;
+                    grid-area: 1/1/-1/-1;
+                    grid-template-rows: repeat(23, minmax(24px, auto));
+                    grid-template-columns:
+                      minmax(var(--grid-gutter), 1fr) repeat(8, minmax(0, var(--cell-max-width))) minmax(var(--grid-gutter), 1fr);
+                    row-gap: 11.0px;
+                    column-gap: 11.0px;
+                  }
+
+                  @media (min-width: 768px) {
+                    .background-width--inset .fe-67322a6b73bf717297325132 {
+                      --inset-padding: calc(var(--sqs-site-gutter) * 2);
+                    }
+
+                    .fe-67322a6b73bf717297325132 {
+                      --grid-gutter: calc(var(--sqs-site-gutter, 4vw) - 11.0px);
+                      --cell-max-width: calc((var(--sqs-site-max-width, 1500px) - (11.0px * (24 - 1))) / 24);
+                      --inset-padding: 0vw;
+
+                      --row-height-scaling-factor: 0.0215;
+                      --container-width: min(var(--sqs-site-max-width, 1500px), calc(100vw - var(--sqs-site-gutter, 4vw) * 2 - var(--inset-padding)));
+
+                      grid-template-rows: repeat(18, minmax(calc(var(--container-width) * var(--row-height-scaling-factor)), auto));
+                      grid-template-columns:
+                        minmax(var(--grid-gutter), 1fr) repeat(24, minmax(0, var(--cell-max-width))) minmax(var(--grid-gutter), 1fr);
+                    }
+                  }
+
+
+                  .fe-block-70b91d0ab0ca5340ebc6 {
+                    grid-area: 2/2/12/10;
+                    z-index: 3;
+
+                    @media (max-width: 767px) {}
+                  }
+
+                  .fe-block-70b91d0ab0ca5340ebc6 .sqs-block {
+                    justify-content: flex-start;
+                  }
+
+                  .fe-block-70b91d0ab0ca5340ebc6 .sqs-block-alignment-wrapper {
+                    align-items: flex-start;
+                  }
+
+                  @media (min-width: 768px) {
+                    .fe-block-70b91d0ab0ca5340ebc6 {
+                      grid-area: 5/3/14/11;
+                      z-index: 3;
+
+
+
+
+                    }
+
+                    .fe-block-70b91d0ab0ca5340ebc6 .sqs-block {
+                      justify-content: flex-start;
+                    }
+
+                    .fe-block-70b91d0ab0ca5340ebc6 .sqs-block-alignment-wrapper {
+                      align-items: flex-start;
+                    }
+                  }
+
+                  .fe-block-97f5e54c2cd445e8daaa {
+                    grid-area: 12/2/22/10;
+                    z-index: 1;
+
+                    @media (max-width: 767px) {}
+                  }
+
+                  .fe-block-97f5e54c2cd445e8daaa .sqs-block {
+                    justify-content: flex-start;
+                  }
+
+                  .fe-block-97f5e54c2cd445e8daaa .sqs-block-alignment-wrapper {
+                    align-items: flex-start;
+                  }
+
+                  @media (min-width: 768px) {
+                    .fe-block-97f5e54c2cd445e8daaa {
+                      grid-area: 6/15/15/25;
+                      z-index: 1;
+
+
+
+
+                    }
+
+                    .fe-block-97f5e54c2cd445e8daaa .sqs-block {
+                      justify-content: flex-start;
+                    }
+
+                    .fe-block-97f5e54c2cd445e8daaa .sqs-block-alignment-wrapper {
+                      align-items: flex-start;
+                    }
+                  }
+
+                  .fe-block-yui_3_17_2_1_1731340917921_106629 {
+                    grid-area: 22/2/24/10;
+                    z-index: 4;
+
+                    @media (max-width: 767px) {}
+                  }
+
+                  .fe-block-yui_3_17_2_1_1731340917921_106629 .sqs-block {
+                    justify-content: center;
+                  }
+
+                  .fe-block-yui_3_17_2_1_1731340917921_106629 .sqs-block-alignment-wrapper {
+                    align-items: center;
+                  }
+
+                  @media (min-width: 768px) {
+                    .fe-block-yui_3_17_2_1_1731340917921_106629 {
+                      grid-area: 17/2/19/26;
+                      z-index: 4;
+
+
+
+
+                    }
+
+                    .fe-block-yui_3_17_2_1_1731340917921_106629 .sqs-block {
+                      justify-content: center;
+                    }
+
+                    .fe-block-yui_3_17_2_1_1731340917921_106629 .sqs-block-alignment-wrapper {
+                      align-items: center;
+                    }
+                  }
+                </style>
                 <div class="fluid-engine fe-67322a6b73bf717297325132">
-                    <!-- Inserted form block -->
-                    <div class="fe-block fe-block-97f5e54c2cd445e8daaa" style="mix-blend-mode: normal;">
-                        <div class="sqs-block form-block sqs-block-form" id="block-97f5e54c2cd445e8daaa">
-                            <div class="sqs-block-content">
-                                <div class="form-wrapper">
-                                    <form
-                                        action="https://script.google.com/macros/s/AKfycbxM0CKqnW2JeUbyF4NpVozz6qRuPFZQK03mb6JYu64vJ3DICFznd6NHfjkwi3L63tMS/exec"
-                                        method="POST" autocomplete="on" class="react-form-contents" novalidate="">
-                                        <div tabindex="-1"></div>
-                                        <div class="field-list">
-                                            <!-- Name Field -->
-                                            <fieldset class="form-item fields QtxqgZo50mL9VQ8qPer8 name">
-                                                <legend>
-                                                    <div class="title">
-                                                        <div class="Wo7pExQSrVyJJx2_TtqB">
-                                                            <span>Name</span><span class="description required">(required)</span>
-                                                        </div>
-                                                    </div>
-                                                </legend>
-                                                <div class="field first-name">
-                                                    <label for="name-first" class="caption">First Name</label>
-                                                    <input aria-required="true" autocomplete="given-name" id="name-first" name="First Name" type="text" required>
-                                                </div>
-                                                <div class="field last-name">
-                                                    <label for="name-last" class="caption">Last Name</label>
-                                                    <input aria-required="true" autocomplete="family-name" id="name-last" name="Last Name" type="text" required>
-                                                </div>
-                                            </fieldset>
+                  <div class="fe-block fe-block-70b91d0ab0ca5340ebc6" style="mix-blend-mode: normal;">
+                    <div class="sqs-block html-block sqs-block-html" data-blend-mode="NORMAL" data-block-type="2"
+                      data-border-radii="{&quot;topLeft&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0},&quot;topRight&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0},&quot;bottomLeft&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0},&quot;bottomRight&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0}}"
+                      id="block-70b91d0ab0ca5340ebc6">
+                      <div class="sqs-block-content" style="position: relative; z-index: 0;">
+                        <script class="TextAttributes-props" type="application/json">[ {
+"type": "highlight",
+"id": "4536ddfb-7227-40d3-bbca-6bb350f1d439",
+"shape": "scribble",
+"isFront": false,
+"isAnimationEnabled": false,
+"animation": "draw",
+"duration": 0.5,
+"direction": "right",
+"color": {
+"type": "SITE_PALETTE_COLOR",
+"sitePaletteColor": {
+"colorName": "white",
+"alphaModifier": 1.0
+}
+},
+"thickness": {
+"unit": "em",
+"value": 0.1
+},
+"linecap": "square"
+}, {
+"type": "highlight",
+"id": "40c436f4-2787-4752-8684-c68b4e3e0382",
+"shape": "circle",
+"isFront": false,
+"isAnimationEnabled": true,
+"animation": "draw",
+"duration": 0.5,
+"direction": "right",
+"color": {
+"type": "SITE_PALETTE_COLOR",
+"sitePaletteColor": {
+"colorName": "accent",
+"alphaModifier": 1.0
+}
+},
+"thickness": {
+"unit": "em",
+"value": 0.05
+},
+"linecap": "square"
+} ]</script>
 
-                                            <!-- Email Field -->
-                                            <div class="form-item field email required">
-                                                <label for="email-field" class="title">
-                                                    <div><span>Email</span><span class="description required">(required)</span></div>
-                                                </label>
-                                                <input aria-required="true" autocomplete="email" id="email-field" name="Email" type="email" required>
-                                            </div>
-                                        </div>
 
-                                        <!-- Submit Button -->
-                                        <div class="form-button-wrapper">
-                                            <button type="submit" class="button form-submit-button">
-                                                <span>Sign Up</span>
-                                            </button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
+                        <div class="sqs-html-content">
+                          <h3 style="white-space:pre-wrap;"><span class="sqsrte-text-highlight"
+                              data-text-attribute-id="40c436f4-2787-4752-8684-c68b4e3e0382"><span
+                                class="sqsrte-text-color--lightAccent"><strong>Sounds useful? </strong></span></span>
+                          </h3>
+                          <h4 style="white-space:pre-wrap;"><strong>Be the first to know about </strong><span
+                              class="sqsrte-text-highlight"
+                              data-text-attribute-id="4536ddfb-7227-40d3-bbca-6bb350f1d439"><span
+                                class="sqsrte-text-color--lightAccent"><strong>exclusive early
+                                  access</strong></span></span><strong>. Share your details to stay connected and become
+                              a part of our growing community of knowledge seekers. Let’s build something remarkable
+                              together!</strong></h4>
                         </div>
-                    </div>
 
-                    <!-- Original marquee block or other content from the first code -->
-                    <div class="fe-block fe-block-yui_3_17_2_1_1731340917921_106629">
-                        <div class="sqs-block-content">
-                            <div class="Marquee" style="font-size: 1.5rem;">
-                                <div class="Marquee-display fade-edges">
-                                    <div class="Marquee-measure">
-                                        <h1 class="Marquee-item" style="font-size: 1.5rem;">Sign Up!</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="fe-block fe-block-97f5e54c2cd445e8daaa" style="mix-blend-mode: normal;">
+                    <div class="sqs-block form-block sqs-block-form " id="block-97f5e54c2cd445e8daaa">
+                      <div class="sqs-block-content">
+                        <div class="form-wrapper">
+                          <form
+                            action="https://script.google.com/macros/s/AKfycbxM0CKqnW2JeUbyF4NpVozz6qRuPFZQK03mb6JYu64vJ3DICFznd6NHfjkwi3L63tMS/exec"
+                            method="POST" autocomplete="on" class="react-form-contents" novalidate="">
+                            <div tabindex="-1"></div>
+                            <div class="field-list">
+
+                              <!-- Name Field -->
+                              <fieldset class="form-item fields QtxqgZo50mL9VQ8qPer8 name"
+                                id="name-yui_3_17_2_1_1679346524828_51496">
+                                <legend id="name-yui_3_17_2_1_1679346524828_51496-field-wrapper">
+                                  <div class="title">
+                                    <div class="Wo7pExQSrVyJJx2_TtqB">
+                                      <span>Name</span><span class="description required">(required)</span>
                                     </div>
+                                  </div>
+                                </legend>
+                                <div class="field first-name">
+                                  <label for="name-yui_3_17_2_1_1679346524828_51496-fname-field"
+                                    class="k3TDjbWcYCnxX9eAZxaG caption">
+                                    <div class="caption-text">First Name</div>
+                                  </label>
+                                  <input aria-required="true" autocomplete="given-name" class="YY8bsUECeaLgDGNn7yjy"
+                                    id="name-yui_3_17_2_1_1679346524828_51496-fname-field" name="First Name" type="text"
+                                    required>
                                 </div>
+                                <div class="field last-name">
+                                  <label for="name-yui_3_17_2_1_1679346524828_51496-lname-field"
+                                    class="k3TDjbWcYCnxX9eAZxaG caption">
+                                    <div class="caption-text">Last Name</div>
+                                  </label>
+                                  <input aria-required="true" autocomplete="family-name" class="YY8bsUECeaLgDGNn7yjy"
+                                    id="name-yui_3_17_2_1_1679346524828_51496-lname-field" name="Last Name" type="text"
+                                    required>
+                                </div>
+                              </fieldset>
+
+                              <!-- Email Field -->
+                              <div class="form-item field email required" id="email-yui_3_17_2_1_1679348080814_63349">
+                                <label for="email-yui_3_17_2_1_1679348080814_63349-field"
+                                  class="title o8fjTY9cgg5B_tQ6weo2">
+                                  <div><span>Email</span><span class="description required">(required)</span></div>
+                                </label>
+                                <input aria-required="true" autocomplete="email" class="YY8bsUECeaLgDGNn7yjy"
+                                  id="email-yui_3_17_2_1_1679348080814_63349-field" name="Email" type="email" required>
+                              </div>
+
                             </div>
+
+                            <!-- Submit Button -->
+                            <div class="form-button-wrapper form-button-wrapper--align-left">
+                              <button type="submit"
+                                class="button sqs-system-button sqs-editable-button form-submit-button sqs-button-element--primary">
+                                <span class="form-submit-button-label">Sign Up</span>
+                              </button>
+                            </div>
+                          </form>
                         </div>
+                      </div>
                     </div>
+                  </div>
+
+
 
                 </div>
+              </div>
             </div>
-        </div>
-    </div>
+            <div class="fe-block fe-block-yui_3_17_2_1_1731340917921_106629" style="mix-blend-mode: normal;">
+              <div class="sqs-block marquee-block sqs-block-marquee" data-blend-mode="NORMAL" data-block-type="70"
+                data-border-radii="{&quot;topLeft&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0},&quot;topRight&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0},&quot;bottomLeft&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0},&quot;bottomRight&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0}}"
+                id="block-yui_3_17_2_1_1731340917921_106629">
+                <div class="sqs-block-content">
 
-    <button class="background-pause-button" aria-label="Pause Background"></button>
-    <button class="background-pause-button paused" aria-label="Play Background"></button>
-</section>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  <div class="Marquee" style="font-size: 1.5rem; --marquee-font-size-value: 1.5;" data-ready="true">
+                    <script class="Marquee-props" type="application/json">{
+  "marqueeItems": [ {
+  "text": "Sign Up!"
+  } ],
+  "linkTo": "",
+  "waveFrequency": 4,
+  "waveIntensity": 0,
+  "animationDirection": "right",
+  "animationSpeed": 1.0,
+  "fadeEdges": true,
+  "textStyle": "heading-1",
+  "textSize": {
+  "unit": "rem",
+  "value": 1.5
+  },
+  "itemSpacing": {
+  "unit": "em",
+  "value": 1.0
+  },
+  "blockId": "yui_3_17_2_1_1731340917921_106629",
+  "estimatedDimensions": {
+  "estimatedColumnSpanDesktop": 24,
+  "sectionColumnsDesktop": 24,
+  "estimatedColumnSpanMobile": 8,
+  "sectionColumnsMobile": 8
+  },
+  "containerStyles": {
+  "backgroundEnabled": false,
+  "borderRadii": {
+  "topLeft": {
+  "unit": "px",
+  "value": 0.0
+  },
+  "topRight": {
+  "unit": "px",
+  "value": 0.0
+  },
+  "bottomLeft": {
+  "unit": "px",
+  "value": 0.0
+  },
+  "bottomRight": {
+  "unit": "px",
+  "value": 0.0
+  }
+  },
+  "padding": {
+  "top": {
+  "unit": "%",
+  "value": 3.0
+  },
+  "right": {
+  "unit": "%",
+  "value": 0.0
+  },
+  "bottom": {
+  "unit": "%",
+  "value": 3.0
+  },
+  "left": {
+  "unit": "%",
+  "value": 0.0
+  }
+  },
+  "stretchedToFill": false,
+  "stroke": {
+  "style": "none",
+  "color": {
+  "type": "THEME_COLOR"
+  },
+  "thickness": {
+  "unit": "px",
+  "value": 6.0
+  },
+  "dashLength": {
+  "unit": "px",
+  "value": 5.0
+  },
+  "gapLength": {
+  "unit": "px",
+  "value": 15.0
+  },
+  "linecap": "square"
+  },
+  "blendMode": "normal",
+  "blur": {
+  "enabled": false,
+  "filterType": "backdrop",
+  "blurRadius": {
+  "unit": "px",
+  "value": 15.0
+  }
+  }
+  },
+  "featureFlags": {
+  "useCLDRMoneyFormat": true
+  }
+  }</script>
+                    <div class="Marquee-display fade-edges">
+                      <div class="Marquee-measure">
+
+                        <h1 class="Marquee-item Marquee-item--text" style="margin-right: 1em; font-size: 1.5rem;">
+                          Sign Up!
+                        </h1>
+
+                      </div>
+
+                      <h1 style="font-size: 1.5rem; --marquee-font-size-value: 1.5;">
+                        <svg class="Marquee-svg" fill="currentColor" aria-hidden="true"
+                          style="height: 34px; transform: translateY(3.4px); overflow: visible;">
+                          <g class="Marquee-path-group" transform="translate(0, 1.7000000000000002)">
+                            <path class="Marquee-path" fill="none" stroke="transparent" stroke-width="0"
+                              d="M-550,22.508000000000003  L-550,22.508000000000003 S-183.15,22.508000000000003 0,22.508000000000003 S366.85,22.508000000000003 550,22.508000000000003 S916.85,22.508000000000003 1100,22.508000000000003 S1466.85,22.508000000000003 1650,22.508000000000003 S2016.85,22.508000000000003 2200,22.508000000000003"
+                              stroke-dasharray="85 24 " id="yui_3_17_2_1_1731340917921_106629"></path>
+                          </g>
+                          <text>
+                            <textpath class="Marquee-svg-text" href="#yui_3_17_2_1_1731340917921_106629">
+                              <tspan class="Marquee-svg-text" x="0">Sign Up!</tspan>
+                              <tspan class="Marquee-svg-text" x="109">Sign Up!</tspan>
+                              <tspan class="Marquee-svg-text" x="218">Sign Up!</tspan>
+                              <tspan class="Marquee-svg-text" x="327">Sign Up!</tspan>
+                              <tspan class="Marquee-svg-text" x="436">Sign Up!</tspan>
+                              <tspan class="Marquee-svg-text" x="545">Sign Up!</tspan>
+                              <tspan class="Marquee-svg-text" x="654">Sign Up!</tspan>
+                              <tspan class="Marquee-svg-text" x="763">Sign Up!</tspan>
+                              <tspan class="Marquee-svg-text" x="872">Sign Up!</tspan>
+                              <tspan class="Marquee-svg-text" x="981">Sign Up!</tspan>
+                              <tspan class="Marquee-svg-text" x="1090">Sign Up!</tspan>
+                              <tspan class="Marquee-svg-text" x="1199">Sign Up!</tspan>
+                              <tspan class="Marquee-svg-text" x="1308">Sign Up!</tspan>
+                              <tspan class="Marquee-svg-text" x="1417">Sign Up!</tspan>
+                              <tspan class="Marquee-svg-text" x="1526">Sign Up!</tspan>
+                              <tspan class="Marquee-svg-text" x="1635">Sign Up!</tspan>
+                              <tspan class="Marquee-svg-text" x="1744">Sign Up!</tspan>
+                              <tspan class="Marquee-svg-text" x="1853">Sign Up!</tspan>
+                              <tspan class="Marquee-svg-text" x="1962">Sign Up!</tspan>
+                              <tspan class="Marquee-svg-text" x="2071">Sign Up!</tspan>
+                              <tspan class="Marquee-svg-text" x="2180">Sign Up!</tspan>
+                              <tspan class="Marquee-svg-text" x="2289">Sign Up!</tspan>
+                              <tspan class="Marquee-svg-text" x="2398">Sign Up!</tspan>
+                              <tspan class="Marquee-svg-text" x="2507">Sign Up!</tspan>
+                              <tspan class="Marquee-svg-text" x="2616">Sign Up!</tspan>
+                              <tspan class="Marquee-svg-text" x="2725">Sign Up!</tspan>
+                              <tspan class="Marquee-svg-text" x="2834">Sign Up!</tspan>
+                            </textpath>
+                          </text>
+                          <text>
+                            <textpath class="Marquee-svg-group" visibility="hidden"
+                              href="#yui_3_17_2_1_1731340917921_106629">
+
+                              <tspan class="Marquee-svg-text">Sign Up!</tspan>
+
+                            </textpath>
+                          </text>
+                          <g class="Marquee-hitbox" data-hitbox=""
+                            aria-labelledby="ariaLabelyui_3_17_2_1_1731340917921_106629">
+                            <g class="Marquee-path-hitbox-group" transform="translate(0, -5.6270000000000024)">
+                              <path class="Marquee-path-hitbox" fill="none" stroke="transparent"
+                                d="M-550,22.508000000000003  L-550,22.508000000000003 S-183.15,22.508000000000003 0,22.508000000000003 S366.85,22.508000000000003 550,22.508000000000003 S916.85,22.508000000000003 1100,22.508000000000003 S1466.85,22.508000000000003 1650,22.508000000000003 S2016.85,22.508000000000003 2200,22.508000000000003"
+                                id="yui_3_17_2_1_1731340917921_106629" stroke-width="34"></path>
+                              <path class="Marquee-path-hitbox-focus-outline" fill="none" stroke="transparent"
+                                stroke-width="2px" d="
+        M-550,34
+         L-550,30.6 S-183.15,30.6 0,30.6 S366.85,30.6 550,30.6 S916.85,30.6 1100,30.6 S1466.85,30.6 1650,30.6 S2016.85,30.6 2200,30.6
+        M-550,3.4000000000000004
+         L-550,3.4000000000000004 S-183.15,3.4000000000000004 0,3.4000000000000004 S366.85,3.4000000000000004 550,3.4000000000000004 S916.85,3.4000000000000004 1100,3.4000000000000004 S1466.85,3.4000000000000004 1650,3.4000000000000004 S2016.85,3.4000000000000004 2200,3.4000000000000004
+      " style="transform: translateY(3.4px);"></path>
+                            </g>
+                          </g>
+                        </svg>
+
+                        <span class="v6-visually-hidden" id="ariaLabelyui_3_17_2_1_1731340917921_106629">
+                          Sign Up!
+                        </span>
+                      </h1>
+
+                      <div class="Marquee-track"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  </div>
+  </div>
+
+  <button class="background-pause-button" aria-label="Pause Background"></button>
+  <button class="background-pause-button paused" aria-label="Play Background"></button>
+
+
+  </div>
+
+  </section>
 
 
   </article>
